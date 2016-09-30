@@ -1,0 +1,31 @@
+{
+  "name": "graficos",
+  "version": "0.0.2",
+  "description": "ejemplos de gráficos",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Hernán Beiza",
+  "license": "ISC",
+  "window": {
+    "title": "Doris",
+    "frame": true,
+    "position": "center",
+    "icon": "img/Icon1024.png",
+    "toolbar": true,
+    "width": 920,
+    "height": 700,
+    "min_width": 920,
+    "min_height": 700
+  },
+  "dependencies": {
+    "angular-chart.js": "^1.0.3",
+    "express": "^4.14.0",
+    "grunt": "^1.0.1",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-express": "^1.4.1",
+    "gulp": "^3.9.1",
+    "moment": "^2.14.1"
+  }
+}

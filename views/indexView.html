@@ -1,0 +1,46 @@
+<div id="wrapper" ng-controller='IndexController' ng-init="init()">
+	<div class="container">	
+		<h1>Ejemplos</h1>
+		<div class="panel panel-default">
+		    <div class="panel-heading">
+				<h3 class="panel-title">Gráfico de barras</h3>
+		    </div>
+		    <div class="panel-body">
+		    	<span>Gráfico de barra</span>
+		    	<canvas id="bar" class="chart chart-bar" chart-data="model.barra.data" chart-labels="model.barra.labels"
+		                      chart-series="model.barra.series" chart-options="options"></canvas>
+			</div>
+		</div>
+	</div>
+
+	<div class="container">	
+		<h1>Ejemplos</h1>
+		<div class="panel panel-default">
+		    <div class="panel-heading">
+				<h3 class="panel-title">Gráfico de dona</h3>
+		    </div>
+		    <div class="panel-body">
+		    	<span>Gráfico de dona</span>
+				<canvas id="doughnut" class="chart chart-doughnut"
+				  chart-data="model.dona.data" chart-options="options" chart-labels="model.dona.labels">
+				</canvas> 
+			</div>
+		</div>
+	</div>
+
+	<div class="container">	
+		<h1>Ejemplos</h1>
+		<div class="panel panel-default">
+		    <div class="panel-heading">
+				<h3 class="panel-title">Gráfico de pie</h3>
+		    </div>
+		    <div class="panel-body">
+		    	<span>Gráfico de pie</span>
+				<canvas id="pie" class="chart chart-pie"
+				  chart-data="model.pie.data" chart-labels="model.pie.labels" chart-options="options">
+				</canvas> 
+			</div>
+		</div>
+	</div>
+
+</div>
