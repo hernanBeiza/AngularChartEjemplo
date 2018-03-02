@@ -4,28 +4,23 @@
   "description": "ejemplos de gráficos",
   "main": "index.html",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "grunt"
   },
   "author": "Hernán Beiza",
   "license": "ISC",
-  "window": {
-    "title": "Doris",
-    "frame": true,
-    "position": "center",
-    "icon": "img/Icon1024.png",
-    "toolbar": true,
-    "width": 920,
-    "height": 700,
-    "min_width": 920,
-    "min_height": 700
-  },
   "dependencies": {
-    "angular-chart.js": "^1.0.3",
-    "express": "^4.14.0",
+    "moment": "^2.14.1"
+  },
+  "devDependencies": {
     "grunt": "^1.0.1",
+    "grunt-contrib-clean": "^1.1.0",
+    "grunt-contrib-compress": "^1.4.3",
+    "grunt-contrib-copy": "^1.0.0",
     "grunt-contrib-watch": "^1.0.0",
     "grunt-express": "^1.4.1",
-    "gulp": "^3.9.1",
-    "moment": "^2.14.1"
+    "grunt-ng-constant": "^2.0.1",
+    "grunt-open": "^0.2.3",
+    "grunt-processhtml": "^0.4.1"
   }
 }
